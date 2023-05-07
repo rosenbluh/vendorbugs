@@ -1,0 +1,9 @@
+Cloudformation - links to EIPs don't work
+
+link shown:
+https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#eips:search=52.4.109.208
+
+link should be:
+https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#Addresses:search=52.4.109.208
+
+No button or UI to export zone file from Route53
