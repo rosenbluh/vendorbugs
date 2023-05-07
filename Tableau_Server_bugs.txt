@@ -1,0 +1,12 @@
+Logging
+
+By default, log level for most logs set to info. This causes the drive to fill up.
+
+There are currently three types of maintenance jobs that can be run via tsm commands:
+-ziplogs
+-backup
+-log and temp file maintenance (by default) set to one day
+
+There are no documentation on how these should be run in sequence or how to schedule as a task. This would be a very simple script to write.
+
+There are also very few options about how to choose other drives. There is only one option in the GUI to select another folder, but in the GUI one can't choose the data dir although that is a command line option. There is no way to choose another directory for log files to put them on different storage, for instance.
